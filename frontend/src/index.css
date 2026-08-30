@@ -1,0 +1,57 @@
+/* Base reset only. All Titan Portal styling lives in App.css */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(27, 42, 77, 0.45) transparent;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background-color: #ffffff;
+  color: #2b2f38;
+  cursor: default;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Premium scrollbar, themed navy/gold to match the Titan brand */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, rgba(27, 42, 77, 0.35), rgba(27, 42, 77, 0.55));
+  border-radius: 10px;
+  border: 2px solid #ffffff;
+  transition: background 0.25s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, rgba(201, 162, 39, 0.55), rgba(27, 42, 77, 0.65));
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}

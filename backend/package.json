@@ -1,0 +1,27 @@
+{
+  "name": "titan-portal-backend",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Titan Portal backend - Express + MongoDB (Mongoose) API for Student, Teacher, Sub Admin and Super Admin portals.",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node --watch server.js",
+    "start": "node server.js",
+    "seed": "node seed.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^2.5.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "exceljs": "^4.4.0",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.5.1",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.14",
+    "pdfkit": "^0.15.0"
+  },
+  "devDependencies": {}
+}
